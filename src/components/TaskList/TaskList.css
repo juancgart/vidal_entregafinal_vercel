@@ -1,0 +1,23 @@
+.list-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.448);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+	padding: 20px;
+	background-color: #ae1b1b;
+	margin: 20px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	z-index: 1;
+	gap: 25px;
+}
